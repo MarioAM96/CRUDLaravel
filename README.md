@@ -59,7 +59,4 @@ php artisan serve
 - Run `php artisan db:seed` to run seeders, if any.
 - Run `php artisan serve`
 
-![Captura de pantalla 2023-04-28 170724](https://user-images.githubusercontent.com/91484233/235262785-5c720026-dbbd-4252-bc5b-4214fad7a00d.png)
-
-![Captura de pantalla 2023-04-28 170815](https://user-images.githubusercontent.com/91484233/235262801-fe588315-c96d-4640-9748-60651350fdcd.png)
 
