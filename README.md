@@ -59,6 +59,4 @@ php artisan serve
 - Run `php artisan db:seed` to run seeders, if any.
 - Run `php artisan serve`
 
-![Untitled](Simple%20CRUD%20Laravel%200a9a009af74646a2946ff4e9cb21a2d6/Untitled.png)
 
-![Untitled](Simple%20CRUD%20Laravel%200a9a009af74646a2946ff4e9cb21a2d6/Untitled%201.png)
