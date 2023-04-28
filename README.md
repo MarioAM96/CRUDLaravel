@@ -63,4 +63,7 @@ php artisan serve
 
 ![Captura de pantalla 2023-04-28 170724](https://user-images.githubusercontent.com/91484233/235263110-a17240e8-b78f-4a6b-a975-a8fe909a627b.png)
 
+<img width="1063" alt="Screenshot 2023-04-28 at 17 17 49" src="https://user-images.githubusercontent.com/91484233/235263212-f701e56d-42ea-4b6d-84da-4b939d50783b.png">
+
+
 
