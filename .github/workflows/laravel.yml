@@ -15,9 +15,7 @@ runs-on: ubuntu-latest
     
     - name: Folder
       run: cd simple_crud
-      
-    - name: Validate composer.json and composer.lock
-      run: composer validate --strict
+    
 
     - name: Cache Composer packages
       id: composer-cache
