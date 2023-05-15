@@ -41,6 +41,7 @@
 										<th>Cédula</th>
 										<th>Email</th>
 										<th>Edad</th>
+										<th>Fecha De Nacimiento</th>
 
                                         <th></th>
                                     </tr>
@@ -55,6 +56,7 @@
 											<td>{{ $persona->Cédula }}</td>
 											<td>{{ $persona->Email }}</td>
 											<td>{{ $persona->Edad }}</td>
+											<td>{{ $persona->Fecha_de_Nacimiento }}</td>
 
                                             <td>
                                                 <form action="{{ route('personas.destroy',$persona->id) }}" method="POST">

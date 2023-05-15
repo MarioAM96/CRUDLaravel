@@ -26,6 +26,11 @@
             {{ Form::text('Edad', $persona->Edad, ['class' => 'form-control' . ($errors->has('Edad') ? ' is-invalid' : ''), 'placeholder' => 'Edad']) }}
             {!! $errors->first('Edad', '<div class="invalid-feedback">:message</div>') !!}
         </div>
+        <div class="form-group">
+            {{ Form::label('Fecha_de_Nacimiento') }}
+            {{ Form::text('Fecha_de_Nacimiento', $persona->Fecha_de_Nacimiento, ['class' => 'form-control' . ($errors->has('Fecha_de_Nacimiento') ? ' is-invalid' : ''), 'placeholder' => 'Fecha De Nacimiento']) }}
+            {!! $errors->first('Fecha_de_Nacimiento', '<div class="invalid-feedback">:message</div>') !!}
+        </div>
 
     </div>
     <div class="box-footer mt20">

@@ -15,6 +15,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property $Edad
  * @property $created_at
  * @property $updated_at
+ * @property $Fecha_de_Nacimiento
  *
  * @package App
  * @mixin \Illuminate\Database\Eloquent\Builder
@@ -37,7 +38,7 @@ class Persona extends Model
      *
      * @var array
      */
-    protected $fillable = ['Nombre','Apellido','Cédula','Email','Edad'];
+    protected $fillable = ['Nombre','Apellido','Cédula','Email','Edad','Fecha_de_Nacimiento'];
 
 
 
