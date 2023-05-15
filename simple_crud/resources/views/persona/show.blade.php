@@ -40,6 +40,10 @@
                             <strong>Edad:</strong>
                             {{ $persona->Edad }}
                         </div>
+                        <div class="form-group">
+                            <strong>Fecha De Nacimiento:</strong>
+                            {{ $persona->Fecha_de_Nacimiento }}
+                        </div>
 
                     </div>
                 </div>
