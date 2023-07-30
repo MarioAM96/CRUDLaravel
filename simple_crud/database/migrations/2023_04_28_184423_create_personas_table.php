@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('Nombre');
             $table->string('Apellido');
-            $table->string('Cédula');
+            $table->string('Cedula');
             $table->string('Email');
             $table->integer('Edad');
             $table->timestamps();

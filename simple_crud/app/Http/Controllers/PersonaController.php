@@ -60,7 +60,7 @@ class PersonaController extends Controller
     public function show($id)
     {
         $persona = Persona::find($id);
-
+        
         return view('persona.show', compact('persona'));
     }
 

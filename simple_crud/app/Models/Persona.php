@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property $id
  * @property $Nombre
  * @property $Apellido
- * @property $Cédula
+ * @property $Cedula
  * @property $Email
  * @property $Edad
  * @property $created_at
@@ -26,7 +26,7 @@ class Persona extends Model
     static $rules = [
 		'Nombre' => 'required',
 		'Apellido' => 'required',
-		'Cédula' => 'required',
+		'Cedula' => 'required',
 		'Email' => 'required',
 		'Edad' => 'required',
     ];
@@ -38,7 +38,7 @@ class Persona extends Model
      *
      * @var array
      */
-    protected $fillable = ['Nombre','Apellido','Cédula','Email','Edad','Fecha_de_Nacimiento'];
+    protected $fillable = ['Nombre','Apellido','Cedula','Email','Edad','Fecha_de_Nacimiento'];
 
 
 

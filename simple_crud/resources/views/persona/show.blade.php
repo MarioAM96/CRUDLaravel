@@ -30,7 +30,7 @@
                         </div>
                         <div class="form-group">
                             <strong>Cédula:</strong>
-                            {{ $persona->Cédula }}
+                            {{ $persona->Cedula }}
                         </div>
                         <div class="form-group">
                             <strong>Email:</strong>

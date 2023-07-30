@@ -53,7 +53,7 @@
                                             
 											<td>{{ $persona->Nombre }}</td>
 											<td>{{ $persona->Apellido }}</td>
-											<td>{{ $persona->Cédula }}</td>
+											<td>{{ $persona->Cedula }}</td>
 											<td>{{ $persona->Email }}</td>
 											<td>{{ $persona->Edad }}</td>
 											<td>{{ $persona->Fecha_de_Nacimiento }}</td>

@@ -1,6 +1,6 @@
 <div class="box box-info padding-1">
     <div class="box-body">
-        
+
         <div class="form-group">
             {{ Form::label('Nombre') }}
             {{ Form::text('Nombre', $persona->Nombre, ['class' => 'form-control' . ($errors->has('Nombre') ? ' is-invalid' : ''), 'placeholder' => 'Nombre']) }}
@@ -13,9 +13,10 @@
         </div>
         <div class="form-group">
             {{ Form::label('Cédula') }}
-            {{ Form::text('Cédula', $persona->Cédula, ['class' => 'form-control' . ($errors->has('Cédula') ? ' is-invalid' : ''), 'placeholder' => 'Cédula']) }}
-            {!! $errors->first('Cédula', '<div class="invalid-feedback">:message</div>') !!}
+            {{ Form::text('Cedula', $persona->Cedula, ['class' => 'form-control' . ($errors->has('Cedula') ? ' is-invalid' : ''), 'placeholder' => 'Cedula']) }}
+            {!! $errors->first('Cedula', '<div class="invalid-feedback">:message</div>') !!}
         </div>
+
         <div class="form-group">
             {{ Form::label('Email') }}
             {{ Form::text('Email', $persona->Email, ['class' => 'form-control' . ($errors->has('Email') ? ' is-invalid' : ''), 'placeholder' => 'Email']) }}
